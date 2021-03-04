@@ -33,11 +33,11 @@ async function gsrun(client){
     // create an object called opt with certain info in it
     const opt = {
         // Eric's spreadsheet test
-        spreadsheetId: '1Q9_cVWL0inbHybN9nNllhTFdj0ZpGRc3dY3txP8nS5s',
+        // spreadsheetId: '1Q9_cVWL0inbHybN9nNllhTFdj0ZpGRc3dY3txP8nS5s',
         // My spreadsheet
-        //spreadsheetId: '16vAB0L9icNsqY_OT7y7KEiCB_YvTp2SVdtTyBXhaHB0',
-        range: 'Sheet1!E10:E14'
-        //range: 'Sheet1!A1:C5'
+        spreadsheetId: '16vAB0L9icNsqY_OT7y7KEiCB_YvTp2SVdtTyBXhaHB0',
+        // range: 'Sheet1!E10:E14'
+        range: 'Sheet1!A1:D8'
     };
 
     let data = await gsapi.spreadsheets.values.get(opt);
