@@ -1,0 +1,112 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Lab7</title>
+  <!--student number: A01248576-->
+  <!--COMP 1800, Winter 2021 -->
+  <!--Lab05 HTML for the javascript D&D cards-->
+  <meta name="1537 boilerplate code" content="my bcit project">
+  <meta name="author" content="BCIT">
+
+  <!-- Bootstrap for Mobile-first, and JQuery -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/indexCSS.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+  </nav>
+  <div class="container-fluid" id="block1">
+    <h1 class="display-5 text-center text-white fw-bold">Invoices Made Easy</h1>
+    <div class="card text-center" id="hero">
+      <div class="input-group mb-3" id="linkInput">
+        <input type="text" placeholder="Paste Google Sheets Share Link" class="form-control" id="basic-url"
+          aria-describedby="basic-addon3">
+      </div>
+
+      <button id="goBtn" type="submit" class="btn btn-success">Let's go!</button>
+
+
+    </div>
+  </div>
+
+  <div class="container-fluid text-center block" id="block2">
+    <img src="/images/boldTriangle.svg" id="chevron">
+    <h3 class="text-center fw-bold">Based on your spreadsheet, select the correct headers!</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h6>Client Name</h6>
+          <select class="d-inline-block form-select" id="positionSelector" name="position"
+            aria-label="Default select example">
+            <!-- <option selected>Client Name</option> -->
+            <option value="Name">Name</option>
+            <option value="Date">Date</option>
+            <option value="Cost">Cost</option>
+            <option value="Line_Item">Line_Item</option>
+          </select>
+        </div>
+        <div class="col">
+          <h6>Line Items</h6>
+          <select class="d-inline-block form-select " id="positionSelector" name="position"
+            aria-label="Default select example">
+            <!-- <option selected>Client Name</option> -->
+            <option value="Name">Name</option>
+            <option value="Date">Date</option>
+            <option value="Cost">Cost</option>
+            <option value="Line_Item">Line_Item</option>
+          </select>
+        </div>
+        <div class="col">
+          <h6>Costs</h6>
+          <select class="d-inline-block form-select" id="positionSelector" name="position"
+            aria-label="Default select example">
+            <!-- <option selected>Client Name</option> -->
+            <option value="Name">Name</option>
+            <option value="Date">Date</option>
+            <option value="Cost">Cost</option>
+            <option value="Line_Item">Line_Item</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="ready" type="submit" class="btn btn-success">Okay, I'm ready!</button>
+
+    </div>
+  </div>
+
+  <div class="container-fluid text-center block" id="block3">
+    <h3 class="fw-bold">Find your client, then input their information!</h3>
+    <div class="input-group mb-3" id="searchCompanyName">
+      <input type="text" placeholder="Enter Company Name (auto complete)" class="form-control" id="basic-url"
+        aria-describedby="basic-addon3">
+    </div>
+
+    <div class="card text-center" id="hero">
+      <div class="input-group mb-3" id="linkInput">
+        <input type="text" placeholder="*type your address" class="form-control" id="myAddress"
+          aria-describedby="basic-addon3">
+        <input type="text" placeholder="*type your client's address" class="form-control" id="clientAddress"
+          aria-describedby="basic-addon3">
+        <input type="text" placeholder="*type your address" class="form-control" id="myAddress"
+          aria-describedby="basic-addon3">
+      </div>
+
+      <button id="goBtn" type="submit" class="btn btn-success">Let's go!</button>
+
+
+    </div>
+  </div>
+
+
+
+</body>
+
+
+</html>

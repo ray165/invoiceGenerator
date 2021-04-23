@@ -1,0 +1,73 @@
+#block1 {
+    padding-bottom: 3vh;
+}
+
+#hero {
+    background: rgba(46, 49, 49, .1) ;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    height: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    max-width: 80%;
+    margin: auto auto;
+}
+
+#goBtn, #ready {
+    /* width: 20%; */
+    max-width: 50%;
+    margin: auto auto;
+}
+
+#ready { 
+    margin-top: 3vh;
+}
+
+#linkInput{
+    max-width: 80%;
+    margin: auto auto;
+}
+
+#block1 {
+    background-image: url("/images/minimalism-yellow-white-bread-wallpaper.jpg");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
+
+h1,h3 {
+    /* Prefix required. Even Firefox only supports the -webkit- prefix */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+#chevron {
+    width: 5vw;
+    max-width: 50px;
+    height: auto;
+}
+
+#searchCompanyName {
+    width: 50%;
+    max-width: 400px;
+    margin: auto auto;
+    margin-top: 5vh;
+
+}
+select {
+    max-width: 250px;;
+}
+
+#block2, #block3 {
+    border-top: solid;
+}
+
+#block2 {
+    background-image: url("/images/hostelworld\ bg.png");
+    /* opacity: 0.9; */
+}
+
+
+.block {
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
